@@ -1,0 +1,431 @@
+/* All Page Styles in single file */
+
+@font-face {
+  font-family: Muli;
+  font-weight: 400;
+  src: url('../fonts/Muli-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Muli-SemiBold';
+  font-weight: 600;
+  src: url('../fonts/Muli-SemiBold.ttf');
+}
+
+
+@font-face {
+  font-family: 'Muli-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Muli-Bold.ttf');
+}
+
+html, body {
+  font-family: 'Muli', sans-serif;
+  overflow-x: hidden;
+}
+
+.ts-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: transparent;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link.custom-nav-link {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-light .navbar-nav .nav-link.custom-nav-link:hover, 
+.navbar-light .navbar-nav .nav-link.custom-nav-link:focus {
+  text-shadow: 1px 1px 1px #07004F;
+}
+
+.custom-navbar-nav {
+  margin-left: auto;
+}
+
+.custom-navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler.custom-navbar-toggler > .navbar-toggler-icon {
+  background-image: url('../images/logos/ham_menu.svg');
+
+}
+
+.ts-logo-ini {
+  width: 250px;
+}
+
+.home-page-banner-section {
+  /*margin-top: 56px;*/
+}
+
+.custom-navbar-brand {
+  position: relative;
+}
+
+.ts-logo {
+  opacity: 0;
+  width: 250px;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+}
+
+.home-page-nav-li {
+
+}
+
+.home-page-banner-heading {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+
+.home-page-banner-title {
+  color: #07004F;
+  font-size: 2em;
+  font-family: 'Muli-Bold';
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.home-page-banner-desc {
+  color: #fff;
+  text-align: justify;
+  font-size: 1.2em;
+}
+
+.home-page-banner-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../images/hero_ts.svg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.scroll-btn-wrapper {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+}
+
+/* Scroll Btn Animation Home Page Start */
+@-webkit-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+  opacity: 1;
+  top: 29%;
+  }
+  15% {
+  opacity: 1;
+  top: 50%;
+  }
+  50% {
+  opacity: 0;
+  top: 50%;
+  }
+  100% {
+  opacity: 0;
+  top: 29%;
+  }
+}
+ .scroll-btn {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.scroll-btn > * {
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #7f8c8d;
+  color: #ffffff;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+  color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 55px;
+  margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid white;
+  border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: white;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 2.5s linear infinite;
+  -moz-animation: ani-mouse 2.5s linear infinite;
+  animation: ani-mouse 2.5s linear infinite;
+}
+/* Scroll Btn Animation Home Page End */
+
+/* Steps */
+
+.steps-wrapper {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.step1-img {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  padding: 8px;
+}
+
+.step1-txt {
+  -webkit-box-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  text-align: justify;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.step2-txt {
+  -webkit-box-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  text-align: justify;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.step2-img-wrapper {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.step21-img {
+  width: 90px;
+  position: absolute;
+  left: 35%;
+  top: 0;
+}
+
+.step22-img {
+  width: 80px;
+  position: absolute;
+  left: 53%;
+  top: 46px;
+}
+
+.step3-txt {
+  -webkit-box-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  text-align: justify;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.step3-img-wrapper {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.step31-img {
+  position: absolute;
+  width: 300px;
+  top: 17%;
+  left: 18%;
+}
+
+.step32-img {
+  width: 65px;
+  z-index: 1;
+  position: absolute;
+  left: 24%;
+  top: 53%;
+}
+
+.step33-img {
+  width: 142px;
+  position: absolute;
+  top: 36%;
+  left: 41%;
+}
+
+.step4-img-wrapper {
+  -webkit-box-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.step4-txt {
+  -webkit-box-flex: 6;
+  -ms-flex: 6;
+  flex: 6;
+  text-align: justify;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.step41-img {
+  width: 150px;
+  position: absolute;
+  top: 12%;
+  left: 31%;
+}
+
+.step42-img {
+  width: 300px;
+  position: absolute;
+  top: 22%;
+  left: 27%;
+}

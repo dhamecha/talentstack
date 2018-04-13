@@ -1,0 +1,45 @@
+@media screen and (max-width: 425px) {
+  .home-page-banner-heading {
+    width: auto;
+    padding: 16px;
+  }
+
+  .home-page-banner-heading {
+    bottom: 0;
+    top: auto;
+  }
+
+  .home-page-banner-title {
+    font-size: 1.5em;
+  }
+
+  .scroll-btn-wrapper {
+    display: none;
+  }
+
+  #navbarSupportedContent {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .navbar-light .navbar-nav .nav-link.custom-nav-link {
+    padding: 10px;
+    color: #07004F;
+    font-size: 1.2em;
+  }
+
+  .home-page-banner-wrapper {
+    background: url('../images/mobile_hero_ts.svg');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+  /*.home-page-banner-heading {
+    width: 500px;
+  }*/
+}
