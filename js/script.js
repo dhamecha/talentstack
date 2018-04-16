@@ -22,7 +22,7 @@ $(document).ready(() => {
       // Steps Animations
       let windowHeight = $(window).innerHeight(); // Viewport Height
 
-      if($(window).innerWidth >= 425) {      
+      if($(window).innerWidth() >= 425) {
         if($(window).scrollTop() < 200) {
           $('.step1-img').css('top', '-10%').css('left', '28%').css('opacity', '0');
         } else if($(window).scrollTop() >= 400 && $(window).scrollTop() < 500) {
