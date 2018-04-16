@@ -20,6 +20,15 @@
   <section class="home-page-banner-section">
     <div class="home-page-banner-wrapper">
 
+      <div class="mobile-hero-img-wrapper">
+        <img  src="images/mobile_hero_1st_row.svg"
+              alt="Mobile Hero"
+              class="mobile-hero1" />
+        <img src="images/mobile_hero_2nd_row.svg"
+              alt="Mobile Hero"
+              class="mobile-hero2" />
+      </div>
+
       <div class="home-page-banner-heading">
         <h1 class="home-page-banner-title">India's Fastest Growing<br/>Recruitment Firm</h1>
         <p class="home-page-banner-desc">Lorem ipsum dolor sit amet, augue singulis reprimique eu nam, in sea quis omnes, eam et verear diceret. In per quidam luptatum, cibo ludus et has, ex esse omnium eum. Nonumy admodum nam ex, dolor consul vim an.</p>
@@ -37,12 +46,14 @@
     </div>
 
     <div class="container">
-      <div class="steps-wrapper">
-        <img src="images/steps/man_2.svg" alt="Step 1" class="step1-img" />
+      <div class="steps-wrapper steps1-wrapper">
+        <div class="step1-img-wrapper">
+          <img src="images/steps/man_2.svg" alt="Step 1" class="step1-img" />
+        </div>
         <p class="step1-txt">Our Business Development experts get fresh vacancies in the market from relevant clientele through their own research and lead generation from various sources.</p>
       </div>
 
-      <div class="steps-wrapper">
+      <div class="steps-wrapper steps2-wrapper">
         <p class="step2-txt">The agreements are exchanged on mutually agreed terms between Talen Stack and the client.<br/>The client along with the mandate are added on to the internal ATS of Talent Stack for complete tracking of the mandate for quality purposes.</p>
         <div class="step2-img-wrapper">
           <img src="images/steps/man_1.svg" alt="Step 2" class="step21-img" />
@@ -50,7 +61,7 @@
         </div>
       </div>
 
-      <div class="steps-wrapper">
+      <div class="steps-wrapper steps3-wrapper">
         <div class="step3-img-wrapper">
           <img src="images/steps/table_1.svg" alt="Step 3" class="step31-img" />
           <img src="images/steps/table_man_1.svg" alt="Step 3" class="step32-img" />
@@ -65,6 +76,14 @@
           <img src="images/steps/table_public_2.svg" alt="Step 4" class="step41-img" />
           <img src="images/steps/table_2.svg" alt="Step 4" class="step42-img" />
         </div>
+      </div>
+
+      <div class="steps-wrapper">
+        <div class="step4-img-wrapper">
+          <img src="images/steps/sending_man.svg" alt="" class="step51-img" />
+          <img src="images/steps/send_button.svg" alt="" class="step52-img" />
+        </div>
+        <p class="step4-txt">Review Shortlisted candidates are interviewed by means of telephonic / Skype / F2F interview depending on the type of profile.<br/>Rounds if interview are technical / assessment based depending on the requisite of the client.</p>        
       </div>
     </div>
   </section>

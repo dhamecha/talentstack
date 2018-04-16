@@ -25,12 +25,18 @@ html, body {
   overflow-x: hidden;
 }
 
+.navbar-box-shadow {
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
+  box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
+}
+
 .ts-navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 11111;
   background: transparent;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
@@ -61,7 +67,6 @@ html, body {
 
 .navbar-toggler.custom-navbar-toggler > .navbar-toggler-icon {
   background-image: url('../images/logos/ham_menu.svg');
-
 }
 
 .ts-logo-ini {
@@ -121,6 +126,10 @@ html, body {
   background-size: cover;
   height: 100vh;
   position: relative;
+}
+
+.mobile-hero-img-wrapper {
+  display: none;
 }
 
 .scroll-btn-wrapper {
@@ -255,11 +264,24 @@ html, body {
   margin-top: 20px;
 }
 
-.step1-img {
+.step1-img-wrapper {
   -webkit-box-flex: 4;
   -ms-flex: 4;
   flex: 4;
   padding: 8px;
+  position: relative;
+}
+
+.step1-img {
+  width: 37%;
+  position: absolute;
+/*  top: 6%;
+  left: 34%;*/
+  top: 6%;
+  left: 34%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step1-txt {
@@ -317,15 +339,25 @@ html, body {
 .step21-img {
   width: 90px;
   position: absolute;
-  left: 35%;
+/*  left: 35%;
+  top: 0;*/
   top: 0;
+  left: 35%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step22-img {
   width: 80px;
   position: absolute;
-  left: 53%;
+/*  left: 53%;
+  top: 46px;*/
   top: 46px;
+  left: 53%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step3-txt {
@@ -364,7 +396,7 @@ html, body {
 .step31-img {
   position: absolute;
   width: 300px;
-  top: 17%;
+  top: 50px;
   left: 18%;
 }
 
@@ -372,15 +404,25 @@ html, body {
   width: 65px;
   z-index: 1;
   position: absolute;
-  left: 24%;
+/*  left: 24%;
+  top: 53%;*/
   top: 53%;
+  left: 24%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step33-img {
   width: 142px;
   position: absolute;
+/*  top: 36%;
+  left: 41%;*/
   top: 36%;
   left: 41%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step4-img-wrapper {
@@ -419,8 +461,12 @@ html, body {
 .step41-img {
   width: 150px;
   position: absolute;
-  top: 12%;
+  top: 3%;
   left: 31%;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
 .step42-img {
@@ -428,4 +474,22 @@ html, body {
   position: absolute;
   top: 22%;
   left: 27%;
+}
+
+.step51-img {
+  width: 100px;
+  position: absolute;
+  left: 40%;
+  top: 2%;
+}
+
+.step52-img {
+  width: 30px;
+  position: absolute;
+  left: 60%;
+  top: 0%;
+  -webkit-transition: all 3s;
+  -o-transition: all 3s;
+  transition: all 3s;
+  opacity: 1;
 }

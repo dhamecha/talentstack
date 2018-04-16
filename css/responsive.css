@@ -5,12 +5,15 @@
   }
 
   .home-page-banner-heading {
-    bottom: 0;
-    top: auto;
+    top: 45%;
   }
 
   .home-page-banner-title {
     font-size: 1.5em;
+  }
+
+  .home-page-banner-desc {
+    line-height: 25px;
   }
 
   .scroll-btn-wrapper {
@@ -32,14 +35,110 @@
   }
 
   .home-page-banner-wrapper {
-    background: url('../images/mobile_hero_ts.svg');
+    background: url('../images/mobile_hero_bg.svg');
     background-position: center;
     background-size: cover;
   }
+
+  .mobile-hero-img-wrapper {
+    display: block;
+  }
+
+  .mobile-hero1 {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .mobile-hero2 {
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .steps1-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .step1-img-wrapper {
+    height: 50vw;
+  }
+
+  .step1-txt {
+    padding: 0;
+  }
+
+  .steps2-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .step2-txt {
+    padding: 0;
+  }
+
+  .step2-img-wrapper {
+    height: 200px;
+  }
+
+  .step21-img {
+    position: absolute;
+    left: 35%;
+    top: 0;
+    height: 180px;
+  }
+
+  .step22-img {
+    position: absolute;
+    left: 51%;
+    top: 30px;
+    height: 180px;
+  }
+
+  .step2-txt {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .steps3-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .step3-img-wrapper {
+    height: 250px;
+  }
+
+  .step31-img {
+    top: 17%;
+    left: 4%;
+  }
+
+  .step32-img {
+    top: 59%;
+    left: 12%;
+  }
+
+  .step33-img {
+    top: 40%;
+    left: 34%;
+  }
 }
 
+/* Tablets */
 @media screen and (min-width: 425px) and (max-width: 1024px) {
-  /*.home-page-banner-heading {
-    width: 500px;
-  }*/
+  
 }
