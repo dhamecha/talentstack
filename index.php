@@ -70,7 +70,7 @@
         <p class="step3-txt">The hiring committee is briefed about the role in detail after extensive research and market intelligence.<br/>The Plan of action is discussed along with deadlines for the assigned role to be fulfilled.</p>
       </div>
 
-      <div class="steps-wrapper">
+      <div class="steps-wrapper steps4-wrapper">
         <p class="step4-txt">Review Shortlisted candidates are interviewed by means of telephonic / Skype / F2F interview depending on the type of profile.<br/>Rounds if interview are technical / assessment based depending on the requisite of the client.</p>
         <div class="step4-img-wrapper">
           <img src="images/steps/table_public_2.svg" alt="Step 4" class="step41-img" />
@@ -78,12 +78,12 @@
         </div>
       </div>
 
-      <div class="steps-wrapper">
+      <div class="steps-wrapper steps5-wrapper">
         <div class="step4-img-wrapper">
           <img src="images/steps/sending_man.svg" alt="" class="step51-img" />
           <img src="images/steps/send_button.svg" alt="" class="step52-img" />
         </div>
-        <p class="step4-txt">Review Shortlisted candidates are interviewed by means of telephonic / Skype / F2F interview depending on the type of profile.<br/>Rounds if interview are technical / assessment based depending on the requisite of the client.</p>        
+        <p class="step4-txt step5-txt">The Resumes of the shortlisted candidates are then shared with client.<br/>The client will screen and request to line them for round of interview.<br/>The Account Manager / Recruitment officer in charge will coordinate for all the round until the candidate is finally hired.<br/>The offer letter is rolled out and until the candidate completes a tenure of 90 days with the client the assigned SPOC and recruitment manager are available for any co-ordination or support needed.</p>
       </div>
     </div>
   </section>
