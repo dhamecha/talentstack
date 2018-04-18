@@ -1,6 +1,7 @@
-$(document).ready(() => {
+$(document).ready(function() {
 
-  $(window).scroll( (e) => {
+  $(window).scroll( function(e) {
+    console.log('adfasf');
     if($(window).scrollTop() < 50) {
       $('.ts-navbar').css('background', 'rgba(255, 255, 255, '+( ($(window).scrollTop() * 2)/100 )+')');
       $('.ts-logo').css('opacity', ( ($(window).scrollTop() * 2)/100 ));

@@ -210,6 +210,13 @@
     display: block;
   }
 
+  .footer-links-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .footer-links,
   .footer-links:active,
   .footer-links:visited {
@@ -223,6 +230,59 @@
   .footer-links:hover,
   .footer-links:focus {
     text-decoration: none;
+  }
+
+  /* Services Page Styles */
+
+  /* Company Page Styles */
+  .company-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+  }
+
+  .company-profile {
+    display: none;
+  }
+
+  .company-profile-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .company-profile-txt {
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: auto;
+    text-align: center;
+  }
+
+  /* Contact Page Styles */
+  .contact-banner-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+  }
+
+  .contact-banner-img {
+    display: none;
+  }
+
+  .contact-banner-img-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-lbl {
+    display: none;
   }
 }
 

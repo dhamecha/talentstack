@@ -22,22 +22,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav custom-navbar-nav">
         <li class="nav-item home-page-nav-li">
-          <a class="nav-link custom-nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link custom-nav-link" href="/ts/about.php">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item home-page-nav-li">
-          <a class="nav-link custom-nav-link" href="#">Press</a>
-        </li>
-
-        <li class="nav-item home-page-nav-li">
-          <a class="nav-link custom-nav-link disabled" href="#">Contact Us</a>
+          <a class="nav-link custom-nav-link" href="/ts/press.php">Press</a>
         </li>
 
         <li class="nav-item home-page-nav-li">
-          <a class="nav-link custom-nav-link disabled" href="#">Services</a>
+          <a class="nav-link custom-nav-link disabled" href="/ts/contact.php">Contact Us</a>
         </li>
 
         <li class="nav-item home-page-nav-li">
-          <a class="nav-link custom-nav-link disabled" href="#">Company Profile</a>
+          <a class="nav-link custom-nav-link disabled" href="/ts/services.php">Services</a>
+        </li>
+
+        <li class="nav-item home-page-nav-li">
+          <a class="nav-link custom-nav-link disabled" href="/ts/company.php">Company Profile</a>
         </li>
       </ul>
     </div>
