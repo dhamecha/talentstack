@@ -618,6 +618,70 @@ footer {
   margin-bottom: 40px; 
 }
 
+.client-heading {
+  text-align: center;
+  font-family: 'Muli-Bold';
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #3943b7;
+}
+
+.client-logos-wrapper {
+  margin: 30px auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.client-bg {
+  background: #3943b7;
+}
+
+.client-logo-wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  padding: 20px;
+}
+
+.client-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.client-logo {
+  max-width: 150px;
+}
+
+.cl-h-sep {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
 /* Contact Page Styles */
 
 .contact-banner-img {
@@ -741,4 +805,42 @@ footer {
   margin-top: 5px;
   margin-bottom: 8px;
   color: #3943b7;
+}
+
+/* Press Page Styles */
+
+.press-banner-wrapper {
+  position: relative;
+}
+
+.press-banner-heading {
+  font-family: 'Muli-Black';
+  position: absolute;
+  top: 38%;
+  left: 51%;
+
+  -webkit-transform: translateX(-46%);
+  -ms-transform: translateX(-46%);
+  transform: translateX(-46%);
+
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 4em;
+}
+
+.press-banner-img {
+  width: 100%;
+}
+
+.press-banner-img-mobile {
+  display: none;
+}
+
+.press-desc {
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px; 
 }

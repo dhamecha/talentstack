@@ -263,6 +263,17 @@
     text-align: center;
   }
 
+  .client-logos {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .client-logo-wrapper {
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+  }
+
   /* Contact Page Styles */
   .contact-banner-wrapper {
     position: relative;
@@ -283,6 +294,30 @@
 
   .contact-lbl {
     display: none;
+  }
+
+  /* Press Page Styles */
+
+  .press-banner-wrapper {
+    height: 100vh;
+  }
+  .press-banner-img {
+    display: none;
+  }
+
+  .press-banner-img-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .press-banner-heading {
+    top: 11%;
+    font-size: 2em;
+    left: 51%;
+
+    -webkit-transform: translateX(-46%);
+    -ms-transform: translateX(-46%);
+    transform: translateX(-46%);
   }
 }
 
