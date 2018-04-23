@@ -234,6 +234,15 @@
 
   /* Services Page Styles */
 
+  .services-banner {
+    display: none;
+  }
+
+  .services-banner-mobile {
+    display: block;
+    width: 100%;
+  }
+
   /* Company Page Styles */
   .company-wrapper {
     position: relative;

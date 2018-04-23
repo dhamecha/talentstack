@@ -26,6 +26,7 @@
     </div>
 
     <div class="container">
+      <h1 class="services-heading">Services</h1>
       <div class="services-desc">
         Lorem ipsum dolor sit amet, augue singulis reprimique eu nam, in sea quis omnes, eam et verear diceret. In per quidam luptatum, cibo ludus et has, ex esse omnium eum. Nonumy admodum nam ex, dolor consul vim an.
         Lorem ipsum dolor sit amet, augue singulis reprimique eu nam, in sea quis omnes, eam et verear diceret. In per quidam luptatum, cibo ludus et has, ex esse omnium eum. Nonumy admodum nam ex, dolor consul vim an.
