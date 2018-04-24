@@ -36,9 +36,9 @@ body {
 }
 
 .navbar-box-shadow {
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
-  box-shadow: 0px 1px 5px 1px rgba(114,114,114,1);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(221,221,221,1);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(221,221,221,1);
+  box-shadow: 0px 1px 5px 1px rgba(221,221,221,1);
 }
 
 .ts-navbar {
@@ -664,7 +664,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
 
-  padding: 20px;
+  /*padding: 20px;*/
 }
 
 .client-logos {
@@ -850,4 +850,29 @@ footer {
   padding: 8px;
   margin-top: 40px;
   margin-bottom: 40px; 
+}
+
+/* About Page Style */
+
+.about-banner-wrapper {
+  position: relative;
+}
+
+.about-banner-img {
+  width: 100%;
+}
+
+.about-banner-img-mobile {
+  display: none;
+}
+
+.about-banner-heading {
+  font-family: 'Muli-Black';
+  font-size: 4em;
+  position: absolute;
+  color: #fff;
+  top: 30%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  left: 6%;
 }

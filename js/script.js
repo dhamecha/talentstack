@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $(window).scroll( function(e) {
-    console.log('adfasf');
+    console.log($(window).scrollTop());
     if($(window).scrollTop() < 50) {
       $('.ts-navbar').css('background', 'rgba(255, 255, 255, '+( ($(window).scrollTop() * 2)/100 )+')');
       $('.ts-logo').css('opacity', ( ($(window).scrollTop() * 2)/100 ));
@@ -16,7 +16,8 @@ $(document).ready(function() {
         $('.ts-navbar').removeClass('navbar-box-shadow');
       }
     } else {
-      $('.ts-navbar').css('background', 'rgba(255, 255, 255, 1)');
+      $('.ts-navbar').css('background', 'rgba(255, 255, 255, 0.8)');
+      $('.custom-nav-link').css('color', '#07004F');
       $('.ts-logo').css('opacity', 1);
       $('.ts-logo-ini').css('opacity', 0);
       $('.ts-navbar').addClass('navbar-box-shadow');

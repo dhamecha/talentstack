@@ -86,6 +86,189 @@
         <p class="step4-txt step5-txt">The Resumes of the shortlisted candidates are then shared with client.<br/>The client will screen and request to line them for round of interview.<br/>The Account Manager / Recruitment officer in charge will coordinate for all the round until the candidate is finally hired.<br/>The offer letter is rolled out and until the candidate completes a tenure of 90 days with the client the assigned SPOC and recruitment manager are available for any co-ordination or support needed.</p>
       </div>
     </div>
+
+    <h1 class="client-heading">Our Clients</h1>
+    <div class="client-bg">
+      <div class="row container client-logos-wrapper">
+        <div class="client-logos">
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client1.svg" alt="" class="client-logo" />
+          </div>
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client2.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client3.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client4.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client5.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client6.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client7.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client8.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client9.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client10.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client11.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client12.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client13.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client14.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client15.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client16.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client17.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client18.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client19.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client21.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client22.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client23.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client24.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client25.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client26.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client27.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client28.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client29.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client30.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client31.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client32.svg" alt="" class="client-logo" />
+          </div>
+
+<!--           <div class="client-logo-wrapper">
+            <img src="images/client_logos/client33.svg" alt="" class="client-logo" />
+          </div> -->
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client34.svg" alt="" class="client-logo" />
+          </div>
+        </div>
+
+        <div class="client-logos">
+
+
+<!--           <div class="client-logo-wrapper">
+            <img src="images/client_logos/client35.svg" alt="" class="client-logo" />
+          </div> -->
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client36.svg" alt="" class="client-logo" />
+          </div>
+
+          <div class="client-logo-wrapper">
+            <img src="images/client_logos/client40.svg" alt="" class="client-logo" />
+          </div>
+<!--           <div class="client-logo-wrapper">
+            <img src="images/client_logos/client37.svg" alt="" class="client-logo" />
+          </div> -->
+        </div>
+
+        <div class="client-logos">
+          <!-- <div class="client-logo-wrapper">
+            <img src="images/client_logos/client39.svg" alt="" class="client-logo" />
+          </div> -->
+
+
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
