@@ -86,25 +86,60 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   .step1-img-wrapper {
-    height: 250px;
     text-align: center;
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
   }
 
   .step1-img {
     margin: auto;
     opacity: 1;
-/*    top: -16%;
-    left: 25%;*/
-    top: 6%;
-    left: 36%;
+    top: auto;
+    bottom: 10%;
+    left: 26%;
+  }
+
+  .step1-img-animate {
+    top: auto !important;
+    bottom: 0% !important;
+    left: 36% !important;
+  }
+
+  .step21-img-animate {
+    top: auto !important;
+    bottom: 13% !important;
+    left: 24% !important;
+  }
+
+  .step22-img-animate {
+    top: auto !important;
+    bottom: 2% !important;
+    left: 45% !important;
+  }
+
+  .step32-img-animate {
+    top: auto !important;
+    bottom: 5% !important;
+    left: 9% !important;
+  }
+
+  .step33-img-animate {
+    top: auto !important;
+    bottom: 7% !important;
+    left: 34% !important;
   }
 
   .step1-txt {
     padding: 0;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    margin: 0;
   }
 
   .steps2-wrapper {
@@ -112,35 +147,42 @@
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    margin-top: 0;
   }
 
   .step2-txt {
     padding: 0;
+    margin: 0;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    font-size: 5vw;
   }
 
   .step2-img-wrapper {
     height: 250px;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .step21-img {
     position: absolute;
-/*    top: -27%;
-    left: 15%;*/
-    top: -8%;
-    left: 32%;
-    height: 250px;
+    top: auto;
+    bottom: 23%;
+    left: 14%;
+    height: 200px;
   }
 
   .step22-img {
     position: absolute;
-    top: 8%;
-    left: 53%;
-    height: 250px;
-  }
-
-  .step2-txt {
-    margin-top: 16px;
-    margin-bottom: 16px;
+    top: auto;
+    bottom: -8%;
+    left: 55%;
+    height: 200px;
   }
 
   .steps3-wrapper {
@@ -154,27 +196,39 @@
 
   .step3-img-wrapper {
     height: 250px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
   }
 
   .step31-img {
-    top: 17%;
-    left: 4%;
+    top: auto;
+    bottom: 0;
+    left: 0;
   }
 
   .step32-img {
-    top: 59%;
-    left: 12%;
+    top: auto;
+    left: -1%;
+    bottom: -5%;
   }
 
   .step33-img {
-    top: 40%;
-    left: 34%;
+    top: auto;
+    bottom: -3%;
+    left: 44%;
   }
 
   .step3-txt {
     padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 0;
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
   }
 
   .steps4-wrapper {
@@ -352,6 +406,10 @@
     text-align: center;
     left: 0;
     right: 0;
+  }
+
+  .steps-wrapper {
+    height: 100vh;
   }
 }
 

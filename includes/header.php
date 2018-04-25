@@ -8,7 +8,7 @@
 
 <header>
   <nav class="navbar navbar-expand-lg navbar-light ts-navbar">
-    <a class="navbar-brand custom-navbar-brand" href="#">
+    <a class="navbar-brand custom-navbar-brand" href="<?php echo APP_PATH ?>">
       <img  src="images/logos/ts_logo_white.svg"
             alt="Talent Stack"
             class="ts-logo-ini" />

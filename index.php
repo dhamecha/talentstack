@@ -18,7 +18,7 @@
 
   <!-- Main Section -->
   <section class="home-page-banner-section">
-    <div class="home-page-banner-wrapper">
+    <div class="home-page-banner-wrapper" id="banner">
 
       <div class="mobile-hero-img-wrapper">
         <img  src="images/mobile_hero_1st_row.svg"
@@ -26,7 +26,7 @@
               class="mobile-hero1" />
         <img src="images/mobile_hero_2nd_row.svg"
               alt="Mobile Hero"
-              class="mobile-hero2" />
+              class="mobile-hero2" />      
       </div>
 
       <div class="home-page-banner-heading">
@@ -279,5 +279,6 @@
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/hammer.min.js"></script>
 </body>
 </html>

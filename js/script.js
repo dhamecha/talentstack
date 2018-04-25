@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $(window).scroll( function(e) {
-    console.log($(window).scrollTop());
+
     if($(window).scrollTop() < 50) {
       $('.ts-navbar').css('background', 'rgba(255, 255, 255, '+( ($(window).scrollTop() * 2)/100 )+')');
       $('.ts-logo').css('opacity', ( ($(window).scrollTop() * 2)/100 ));
@@ -60,4 +60,105 @@ $(document).ready(function() {
       }
     }
   });
+
+  if($(window).innerWidth() < 768) {
+    // Home Page Banner
+    var homePageBannerWrapper = document.querySelector('.home-page-banner-wrapper');
+    var homePageBannerWrapperSwipe = new Hammer(homePageBannerWrapper);
+
+    var steps1Wrapper = document.querySelector('.steps1-wrapper');
+    var steps1WrapperSwipe = new Hammer(steps1Wrapper);
+
+    var steps2Wrapper = document.querySelector('.steps2-wrapper');
+    var steps2WrapperSwipe = new Hammer(steps2Wrapper);
+
+    var steps3Wrapper = document.querySelector('.steps3-wrapper');
+    var steps3WrapperSwipe = new Hammer(steps3Wrapper);
+
+    homePageBannerWrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    steps1WrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    steps2WrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    homePageBannerWrapperSwipe.on('swipeup', function(e) {
+
+        steps1Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+          document.querySelector('.step1-img').classList.add('step1-img-animate');
+        }, 500);
+    });
+
+    steps1WrapperSwipe.on('swipeup swipedown', function(e) {
+      if(e.type === 'swipeup') {
+        steps2Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+          document.querySelector('.step21-img').classList.add('step21-img-animate');
+          document.querySelector('.step22-img').classList.add('step22-img-animate');
+        }, 500);
+      } else {
+        // homePageBannerWrapper.scrollIntoView({
+        //   behavior: 'smooth'
+        // });
+
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: 'smooth'
+        });
+
+        document.querySelector('.step1-img').classList.remove('step1-img-animate');
+      }
+    });
+
+    steps2WrapperSwipe.on('swipeup swipedown', function(e) {
+
+      if(e.type === 'swipeup') {
+        steps3Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        setTimeout(function() {
+          document.querySelector('.step32-img').classList.add('step32-img-animate');
+          document.querySelector('.step33-img').classList.add('step33-img-animate');
+        }, 500);
+      } else {
+        steps1Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        // window.scrollTo({
+        //   top: 0,
+        //   left: 0,
+        //   behavior: 'smooth'
+        // });
+
+        document.querySelector('.step32-img').classList.remove('step32-img-animate');
+        document.querySelector('.step33-img').classList.remove('step33-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step21-img').classList.add('step21-img-animate');
+          document.querySelector('.step22-img').classList.add('step22-img-animate');
+        }, 500);
+      }
+    });
+  }
 });
