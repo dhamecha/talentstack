@@ -876,3 +876,10 @@ footer {
   letter-spacing: 1px;
   left: 6%;
 }
+
+.about-desc {
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 8px;
+  margin-bottom: 40px;
+}

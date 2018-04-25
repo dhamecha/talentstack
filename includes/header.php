@@ -1,9 +1,9 @@
 <?php
 // Development
-  define('APP_PATH', "/ts/");
+  // define('APP_PATH', "/ts/");
 
 // Production
-  // define('APP_PATH', "/");
+  define('APP_PATH', "/");
 ?>
 
 <header>
