@@ -59,6 +59,8 @@ body {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  text-transform: uppercase;
+  font-family: 'Muli-Black';
 }
 
 .navbar-light .navbar-nav .nav-link.custom-nav-link:hover, 
@@ -511,6 +513,8 @@ footer {
   justify-content: space-evenly;
   padding-top: 80px;
   padding-bottom: 80px;
+
+  font-size: 2vh;
 }
 
 .step41-img {
@@ -575,6 +579,7 @@ footer {
 
 .services-banner {
   width: 100%;
+  display: block;
 }
 
 .services-banner-mobile {

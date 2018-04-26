@@ -134,12 +134,24 @@
     left: 34% !important;
   }
 
+  .step41-img-animate {
+    bottom: 27% !important;
+    left: 10% !important;
+  }
+
+  .step52-img-animate {
+    left: 100% !important;
+    bottom: 100% !important;
+    opacity: 1 !important;
+  }
+
   .step1-txt {
     padding: 0;
     -webkit-box-flex: 4;
     -ms-flex: 4;
     flex: 4;
     margin: 0;
+    font-size: 1em;
   }
 
   .steps2-wrapper {
@@ -156,7 +168,8 @@
     -webkit-box-flex: 5;
     -ms-flex: 5;
     flex: 5;
-    font-size: 5vw;
+    font-size: 1em;
+
   }
 
   .step2-img-wrapper {
@@ -199,9 +212,9 @@
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-flex: 5;
-    -ms-flex: 5;
-    flex: 5;
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
   }
 
   .step31-img {
@@ -226,9 +239,10 @@
     padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 0;
-    -webkit-box-flex: 5;
-    -ms-flex: 5;
-    flex: 5;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    font-size: 1em;
   }
 
   .steps4-wrapper {
@@ -236,24 +250,40 @@
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    margin-top: 0;
   }
 
   .step4-txt {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 0;
+    -webkit-box-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    font-size: 1em;
   }
 
   .step4-img-wrapper {
-    height: 225px;
+    width: 300px;
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    flex: 6;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .step41-img {
-    left: 10%;
+    top: auto;
+    bottom: 37%;
+    left: 0%;
   }
 
   .step42-img {
-    left: 7%;
+    position: static;
   }
 
   .steps5-wrapper {
@@ -261,10 +291,19 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-top: 0;
   }
 
+  .step51-img {
+    top: auto;
+    bottom: 0%;
+    left: 20%;
+  }  
+
   .step52-img {
-    left: 65%;
+    top: auto;
+    bottom: 55%;
+    left: 50%;
   }
 
   .footer-wrapper {
@@ -411,6 +450,7 @@
   .steps-wrapper {
     height: 100vh;
   }
+
 }
 
 /* Tablets */

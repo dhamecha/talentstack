@@ -75,6 +75,14 @@ $(document).ready(function() {
     var steps3Wrapper = document.querySelector('.steps3-wrapper');
     var steps3WrapperSwipe = new Hammer(steps3Wrapper);
 
+    var steps4Wrapper = document.querySelector('.steps4-wrapper');
+    var steps4WrapperSwipe = new Hammer(steps4Wrapper);
+
+    var steps5Wrapper = document.querySelector('.steps5-wrapper');
+    var steps5WrapperSwipe = new Hammer(steps5Wrapper);
+
+    var clientHeading = document.querySelector('.client-heading');
+
     homePageBannerWrapperSwipe.get('swipe').set({
       direction: Hammer.DIRECTION_VERTICAL,
       threshold: 1,
@@ -88,6 +96,24 @@ $(document).ready(function() {
     });
 
     steps2WrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    steps3WrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    steps4WrapperSwipe.get('swipe').set({
+      direction: Hammer.DIRECTION_VERTICAL,
+      threshold: 1,
+      velocity:0.1
+    });
+
+    steps5WrapperSwipe.get('swipe').set({
       direction: Hammer.DIRECTION_VERTICAL,
       threshold: 1,
       velocity:0.1
@@ -109,6 +135,8 @@ $(document).ready(function() {
         steps2Wrapper.scrollIntoView({
           behavior: 'smooth'
         });
+
+        document.querySelector('.step1-img').classList.remove('step1-img-animate');
 
         setTimeout(function() {
           document.querySelector('.step21-img').classList.add('step21-img-animate');
@@ -136,12 +164,45 @@ $(document).ready(function() {
           behavior: 'smooth'
         });
 
+        document.querySelector('.step21-img').classList.remove('step21-img-animate');
+        document.querySelector('.step22-img').classList.remove('step22-img-animate');
+
         setTimeout(function() {
           document.querySelector('.step32-img').classList.add('step32-img-animate');
           document.querySelector('.step33-img').classList.add('step33-img-animate');
         }, 500);
       } else {
         steps1Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        document.querySelector('.step21-img').classList.remove('step21-img-animate');
+        document.querySelector('.step22-img').classList.remove('step22-img-animate');
+
+        // document.querySelector('.step32-img').classList.remove('step32-img-animate');
+        // document.querySelector('.step33-img').classList.remove('step33-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step1-img').classList.add('step1-img-animate');
+        }, 500);
+      }
+    });
+
+    steps3WrapperSwipe.on('swipeup swipedown', function(e) {
+
+      if(e.type === 'swipeup') {
+        steps4Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        document.querySelector('.step32-img').classList.remove('step32-img-animate');
+        document.querySelector('.step33-img').classList.remove('step33-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step41-img').classList.add('step41-img-animate');
+        }, 500);
+      } else {
+        steps2Wrapper.scrollIntoView({
           behavior: 'smooth'
         });
 
@@ -155,10 +216,61 @@ $(document).ready(function() {
         document.querySelector('.step33-img').classList.remove('step33-img-animate');
 
         setTimeout(function() {
-          document.querySelector('.step21-img').classList.add('step21-img-animate');
-          document.querySelector('.step22-img').classList.add('step22-img-animate');
+          document.querySelector('.step41-img').classList.add('step41-img-animate');
         }, 500);
       }
+    });
+
+    steps4WrapperSwipe.on('swipeup swipedown', function(e) {
+
+      if(e.type === 'swipeup') {
+        steps5Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        document.querySelector('.step41-img').classList.remove('step41-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step52-img').classList.add('step52-img-animate');
+        }, 500);
+      } else {
+        steps2Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+        // window.scrollTo({
+        //   top: 0,
+        //   left: 0,
+        //   behavior: 'smooth'
+        // });
+
+        document.querySelector('.step52-img').classList.add('step52-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step41-img').classList.remove('step41-img-animate');
+        }, 500);
+      }
+    });
+
+    steps5WrapperSwipe.on('swipeup swipedown', function(e) {
+
+      if(e.type === 'swipeup') {
+        clientHeading.scrollIntoView({
+          behavior: 'smooth'
+        });
+      } else {
+        steps4Wrapper.scrollIntoView({
+          behavior: 'smooth'
+        });
+
+
+        document.querySelector('.step52-img').classList.remove('step52-img-animate');
+
+        setTimeout(function() {
+          document.querySelector('.step41-img').classList.add('step41-img-animate');
+        }, 500);
+      }
+      
     });
   }
 });
