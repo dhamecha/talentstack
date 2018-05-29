@@ -4,6 +4,7 @@
   <title>Talent Stack</title>
   <meta http-equiv="content-language" content="en" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/reset.min.css" />
   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
   <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -18,7 +19,72 @@
 
   <!-- Main Section -->
   <section class="home-page-banner-section">
-    <div class="home-page-banner-wrapper" id="banner">
+    <!-- <div id="hero-carousel" class="carousel slide" data-ride="carousel" data-interval="false"> -->
+      <div id="hero-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/hero_carousel/1.jpg" alt="First slide">
+          
+          <div class="carousel-content-wrap" id="carousel-content-wrap-one">
+            <div class="carousel-content">
+              <div class="carousel-logo">
+                <img src="images/logos/ts_logo_shadow.svg" alt="">
+              </div>
+                <h2 class="hero-subheading">India's Fastest Growing Recruitment Firm</h2>
+                <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis? Ut quaerat, dolorem error molestiae tenetur, ratione architecto saepe laborum perspiciatis odit amet voluptatibus quibusdam maiores, voluptas blanditiis magnam consequuntur.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/hero_carousel/2.jpg" alt="Second slide">
+          
+          <div class="carousel-content-wrap" id="carousel-content-wrap-two">
+            <div class="carousel-content">
+              <div class="carousel-logo">
+                <img src="images/logos/ts_logo_shadow.svg" alt="">
+              </div>
+              <h2 class="hero-subheading">India's Fastest Growing Recruitment Firm</h2>
+              <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis? Ut quaerat, dolorem error molestiae tenetur, ratione architecto saepe laborum perspiciatis odit amet voluptatibus quibusdam maiores, voluptas blanditiis magnam consequuntur.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/hero_carousel/3.jpg" alt="Third slide">
+          
+          <div class="carousel-content-wrap" id="carousel-content-wrap-three">
+            <div class="carousel-content">
+              <div class="carousel-logo">
+                <img src="images/logos/ts_logo_white.svg" alt="">
+              </div>
+              <h2 class="hero-subheading">India's Fastest Growing Recruitment Firm</h2>
+              <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis? Ut quaerat, dolorem error molestiae tenetur, ratione architecto saepe laborum perspiciatis odit amet voluptatibus quibusdam maiores, voluptas blanditiis magnam consequuntur.</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#hero-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="scroll-btn-wrapper">
+        <span class="scroll-btn">
+          <a href="#">
+            <span class="mouse">
+              <span>
+              </span>
+            </span>
+          </a>
+        </span>
+      </div>
+  </div>
+    <!-- <div class="home-page-banner-wrapper" id="banner">
 
       <div class="mobile-hero-img-wrapper">
         <img  src="images/mobile_hero_1st_row.svg"
@@ -43,9 +109,33 @@
           </a>
         </span>
       </div>
-    </div>
+    </div> -->
 
+
+  <section id="ferris-wheel-section">
+    <div id="lottie"></div>
+  </section>
+
+  <!-- <section id="counter-section">
     <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="counter-wrap">
+            <div class="counter-number">
+              <div class="happy-clients-number">547</div>
+            </div>
+            <div class="counter-title">
+              <h3>Happy clients</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+  </section>   -->
+
+    <!-- <div class="container">
       <div class="steps-wrapper steps1-wrapper">
         <div class="step1-img-wrapper">
           <img src="images/steps/man_2.svg" alt="Step 1" class="step1-img" />
@@ -85,7 +175,7 @@
         </div>
         <p class="step4-txt step5-txt">The Resumes of the shortlisted candidates are then shared with client.<br/>The client will screen and request to line them for round of interview.<br/>The Account Manager / Recruitment officer in charge will coordinate for all the round until the candidate is finally hired.<br/>The offer letter is rolled out and until the candidate completes a tenure of 90 days with the client the assigned SPOC and recruitment manager are available for any co-ordination or support needed.</p>
       </div>
-    </div>
+    </div> -->
 
     <h1 class="client-heading">Our Clients</h1>
     <div class="client-bg">
@@ -278,7 +368,25 @@
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bodymovin.min.js"></script>
+  <!-- <script type="text/javascript" src="js/zepto.waypoints.min.js"></script>
+  <script type="text/javascript" src="js/jquery.counterup.min.js"></script> -->
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/hammer.min.js"></script>
+
+
+<script>
+  $(document).ready(function() {  
+    var animation = bodymovin.loadAnimation({
+      container: document.getElementById('lottie'), // Required
+      path: 'json/ferris.json', // Required
+      renderer: 'svg', // Required
+      loop: true, // Optional
+      autoplay: true, // Optional
+      name: "Hello World", // Name for future reference. Optional.
+    });
+  });
+</script>
+
 </body>
 </html>
