@@ -1,0 +1,55 @@
+#stacked-carousel-section {
+    width: 35em;
+    height: 25em;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+.stacked-car-items {
+    width: 500px;
+    /* width: 50%; */
+    height: 281px;
+    /* background: #fff; */
+    position: absolute;
+    background: #3843b7;
+    color: #fff;
+    box-shadow: 0 1px 9px -1px rgba(0,0,0,.08);
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+}
+
+.main-pos {
+    margin-left: 2em !important;
+    z-index: 3000;
+}
+
+.left-pos {
+    opacity: .3;
+    margin-left: -17em !important;
+    z-index: 1000;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+}
+
+.back-pos {
+    margin-left: 2em !important;
+    opacity: .05;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
+}
+
+.right-pos {
+    opacity: .3;
+    margin-left: 21em !important;
+    z-index: 1000;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+}

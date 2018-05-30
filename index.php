@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/reset.min.css" />
   <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="css/stacked-slider.css" />
   <link type="text/css" rel="stylesheet" href="css/style.css" />
   <link type="text/css" rel="stylesheet" href="css/responsive.css" />
 </head>
@@ -18,12 +19,11 @@
   ?>
 
   <!-- Main Section -->
-  <section class="home-page-banner-section">
     <!-- <div id="hero-carousel" class="carousel slide" data-ride="carousel" data-interval="false"> -->
       <div id="hero-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="images/hero_carousel/1.jpg" alt="First slide">
+          <img class="d-block w-100" src="images/hero_carousel/1.png" alt="First slide">
           
           <div class="carousel-content-wrap" id="carousel-content-wrap-one">
             <div class="carousel-content">
@@ -37,7 +37,7 @@
 
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="images/hero_carousel/2.jpg" alt="Second slide">
+          <img class="d-block w-100" src="images/hero_carousel/2.png" alt="Second slide">
           
           <div class="carousel-content-wrap" id="carousel-content-wrap-two">
             <div class="carousel-content">
@@ -51,9 +51,24 @@
 
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="images/hero_carousel/3.jpg" alt="Third slide">
+          <img class="d-block w-100" src="images/hero_carousel/3.png" alt="Third slide">
           
           <div class="carousel-content-wrap" id="carousel-content-wrap-three">
+            <div class="carousel-content">
+              <div class="carousel-logo">
+                <img src="images/logos/ts_logo_white.svg" alt="">
+              </div>
+              <h2 class="hero-subheading">India's Fastest Growing Recruitment Firm</h2>
+              <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, facilis? Ut quaerat, dolorem error molestiae tenetur, ratione architecto saepe laborum perspiciatis odit amet voluptatibus quibusdam maiores, voluptas blanditiis magnam consequuntur.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/hero_carousel/4.png" alt="Third slide">
+          
+          <div class="carousel-content-wrap" id="carousel-content-wrap-four">
             <div class="carousel-content">
               <div class="carousel-logo">
                 <img src="images/logos/ts_logo_white.svg" alt="">
@@ -116,24 +131,100 @@
     <div id="lottie"></div>
   </section>
 
-  <!-- <section id="counter-section">
+  <section id="counter-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="counter-wrap">
-            <div class="counter-number">
-              <div class="happy-clients-number">547</div>
+            <div class="counter-icon">
+              <img src="images/icons/clients_icon.svg" alt="">
             </div>
+            <div class="counter-number counter-clients">34</div>
             <div class="counter-title">
               <h3>Happy clients</h3>
             </div>
           </div>
         </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="counter-wrap">
+            <div class="counter-icon">
+              <img src="images/icons/candidates_icon.svg" alt="">
+            </div>
+            <div class="counter-number counter-candidates">327</div>
+            <div class="counter-title">
+              <h3>Candidates placed by us</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="counter-wrap">
+            <div class="counter-icon">
+              <img src="images/icons/location_icon.svg" alt="">
+            </div>
+            <div class="counter-number counter-locations">10</div>
+            <div class="counter-title">
+              <h3>Number of locations</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>   -->
+  </section>  
+
+<!-- "In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.” - Lorem Ipsum -->
+
+  <section id="stacked-carousel-section"> 
+      <div class="stacked-carousel-wrap">
+        <h1 class="client-heading">What customers say about us?</h1>
+        <ul class="stacked-carousel">
+          <li class="stacked-car-items items main-pos" id="1">
+            <div class="testimonial-wrap">
+              <div class="testimonial-body">
+                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+              </div>
+              <div class="testimonial-footer">
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </li>
+          <li class="stacked-car-items items right-pos" id="2">
+            <div class="testimonial-wrap">
+              <div class="testimonial-body">
+                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+              </div>
+              <div class="testimonial-footer">
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </li>
+          <li class="stacked-car-items items back-pos" id="3">
+            <div class="testimonial-wrap">
+              <div class="testimonial-body">
+                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+              </div>
+              <div class="testimonial-footer">
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </li>
+          <li class="stacked-car-items items left-pos" id="4">
+            <div class="testimonial-wrap">
+              <div class="testimonial-body">
+                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+              </div>
+              <div class="testimonial-footer">
+                <p>Lorem Ipsum</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- <span>
+      <input type="button" value="Prev" id="prev">
+      <input type="button" value="Next" id="next">
+      </span> -->
+  </section>
+
 
     <!-- <div class="container">
       <div class="steps-wrapper steps1-wrapper">
@@ -177,189 +268,147 @@
       </div>
     </div> -->
 
-    <h1 class="client-heading">Our Clients</h1>
-    <div class="client-bg">
-      <div class="row container client-logos-wrapper">
-        <div class="client-logos">
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client1.svg" alt="" class="client-logo" />
+    <section id="client-logos-section">
+      <h1 class="client-heading">Our Clients</h1>
+      <div class="client-bg">
+        <div class="row container client-logos-wrapper">
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client1.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client2.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client3.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client4.svg" alt="" class="client-logo" />
+            </div>
           </div>
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client2.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client5.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client6.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client7.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client8.svg" alt="" class="client-logo" />
+            </div>
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client3.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client9.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client10.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client11.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client12.svg" alt="" class="client-logo" />
+            </div>
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client4.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client13.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client14.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client15.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client16.svg" alt="" class="client-logo" />
+            </div>
           </div>
-        </div>
-
-        <div class="client-logos">
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client5.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client17.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client18.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client19.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client21.svg" alt="" class="client-logo" />
+            </div>
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client6.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client22.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client23.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client24.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client25.svg" alt="" class="client-logo" />
+            </div>
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client7.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client26.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client27.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client28.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client29.svg" alt="" class="client-logo" />
+            </div>
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client8.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client30.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client31.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client32.svg" alt="" class="client-logo" />
+            </div>
+            <!--           <div class="client-logo-wrapper">
+              <img src="images/client_logos/client33.svg" alt="" class="client-logo" />
+              </div> -->
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client34.svg" alt="" class="client-logo" />
+            </div>
           </div>
-        </div>
-
-        <div class="client-logos">
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client9.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <!--           <div class="client-logo-wrapper">
+              <img src="images/client_logos/client35.svg" alt="" class="client-logo" />
+              </div> -->
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client36.svg" alt="" class="client-logo" />
+            </div>
+            <div class="client-logo-wrapper">
+              <img src="images/client_logos/client40.svg" alt="" class="client-logo" />
+            </div>
+            <!--           <div class="client-logo-wrapper">
+              <img src="images/client_logos/client37.svg" alt="" class="client-logo" />
+              </div> -->
           </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client10.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client11.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client12.svg" alt="" class="client-logo" />
-          </div>
-        </div>
-
-        <div class="client-logos">
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client13.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client14.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client15.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client16.svg" alt="" class="client-logo" />
-          </div>
-        </div>
-
-        <div class="client-logos">
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client17.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client18.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client19.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client21.svg" alt="" class="client-logo" />
-          </div>
-        </div>
-
-        <div class="client-logos">
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client22.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client23.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client24.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client25.svg" alt="" class="client-logo" />
-          </div>
-        </div>
-
-        <div class="client-logos">
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client26.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client27.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client28.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client29.svg" alt="" class="client-logo" />
-          </div>
-        </div>
-
-        <div class="client-logos">
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client30.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client31.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client32.svg" alt="" class="client-logo" />
-          </div>
-
-<!--           <div class="client-logo-wrapper">
-            <img src="images/client_logos/client33.svg" alt="" class="client-logo" />
-          </div> -->
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client34.svg" alt="" class="client-logo" />
+          <div class="client-logos">
+            <!-- <div class="client-logo-wrapper">
+              <img src="images/client_logos/client39.svg" alt="" class="client-logo" />
+              </div> -->
           </div>
         </div>
-
-        <div class="client-logos">
-
-
-<!--           <div class="client-logo-wrapper">
-            <img src="images/client_logos/client35.svg" alt="" class="client-logo" />
-          </div> -->
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client36.svg" alt="" class="client-logo" />
-          </div>
-
-          <div class="client-logo-wrapper">
-            <img src="images/client_logos/client40.svg" alt="" class="client-logo" />
-          </div>
-<!--           <div class="client-logo-wrapper">
-            <img src="images/client_logos/client37.svg" alt="" class="client-logo" />
-          </div> -->
-        </div>
-
-        <div class="client-logos">
-          <!-- <div class="client-logo-wrapper">
-            <img src="images/client_logos/client39.svg" alt="" class="client-logo" />
-          </div> -->
-
-
-        </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Footer -->
   <?php
@@ -369,14 +418,42 @@
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/bodymovin.min.js"></script>
-  <!-- <script type="text/javascript" src="js/zepto.waypoints.min.js"></script>
-  <script type="text/javascript" src="js/jquery.counterup.min.js"></script> -->
+  <script type="text/javascript" src="js/stacked-slider.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
   <script type="text/javascript" src="js/hammer.min.js"></script>
 
 
 <script>
-  $(document).ready(function() {  
+  $(document).ready(function() {
+    var firstTime = true;
+    $(window).on('scroll', function() {
+      if ($('#counter-section').isElementVisible()) {
+        if (firstTime) {
+          $('.counter-number').each(function () {
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 2000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+            firstTime = false;
+          });
+        }
+      }
+    });
+   
+    $.fn.isElementVisible = function() {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+      
+      return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
     var animation = bodymovin.loadAnimation({
       container: document.getElementById('lottie'), // Required
       path: 'json/ferris.json', // Required
