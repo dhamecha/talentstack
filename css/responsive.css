@@ -451,6 +451,19 @@
     height: 100vh;
   }
 
+  #hero-carousel {
+    height: auto;
+    min-height: auto;
+  }
+
+  #ferris-wheel-section {
+    height: auto;
+    min-height: auto;
+  }
+  
+  .carousel-content-wrap {
+    display: none;
+  }
 }
 
 /* Tablets */

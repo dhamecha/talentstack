@@ -174,50 +174,52 @@
 <!-- "In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.” - Lorem Ipsum -->
 
   <section id="stacked-carousel-section"> 
-      <div class="stacked-carousel-wrap">
-        <h1 class="client-heading">What customers say about us?</h1>
-        <ul class="stacked-carousel">
-          <li class="stacked-car-items items main-pos" id="1">
-            <div class="testimonial-wrap">
-              <div class="testimonial-body">
-                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+      <div class="stacked-carousel-container">
+        <div class="stacked-carousel-wrap">
+          <h1 class="client-heading">What customers say about us?</h1>
+          <ul class="stacked-carousel">
+            <li class="stacked-car-items items main-pos" id="1">
+              <div class="testimonial-wrap">
+                <div class="testimonial-body">
+                  <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+                </div>
+                <div class="testimonial-footer">
+                  <p>Lorem Ipsum</p>
+                </div>
               </div>
-              <div class="testimonial-footer">
-                <p>Lorem Ipsum</p>
+            </li>
+            <li class="stacked-car-items items right-pos" id="2">
+              <div class="testimonial-wrap">
+                <div class="testimonial-body">
+                  <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+                </div>
+                <div class="testimonial-footer">
+                  <p>Lorem Ipsum</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="stacked-car-items items right-pos" id="2">
-            <div class="testimonial-wrap">
-              <div class="testimonial-body">
-                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+            </li>
+            <li class="stacked-car-items items back-pos" id="3">
+              <div class="testimonial-wrap">
+                <div class="testimonial-body">
+                  <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+                </div>
+                <div class="testimonial-footer">
+                  <p>Lorem Ipsum</p>
+                </div>
               </div>
-              <div class="testimonial-footer">
-                <p>Lorem Ipsum</p>
+            </li>
+            <li class="stacked-car-items items left-pos" id="4">
+              <div class="testimonial-wrap">
+                <div class="testimonial-body">
+                  <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
+                </div>
+                <div class="testimonial-footer">
+                  <p>Lorem Ipsum</p>
+                </div>
               </div>
-            </div>
-          </li>
-          <li class="stacked-car-items items back-pos" id="3">
-            <div class="testimonial-wrap">
-              <div class="testimonial-body">
-                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
-              </div>
-              <div class="testimonial-footer">
-                <p>Lorem Ipsum</p>
-              </div>
-            </div>
-          </li>
-          <li class="stacked-car-items items left-pos" id="4">
-            <div class="testimonial-wrap">
-              <div class="testimonial-body">
-                <p>"In today's competitive landscape, a good hiring is a key to a successful business and for a startup like us at TalentStack, hiring is something we take very seriously. In TalentStack, we have found a good fit who have helped us close some key positions quickly with not just the right technical profile but also candidates who fit well with the culture of the organization.”</p>
-              </div>
-              <div class="testimonial-footer">
-                <p>Lorem Ipsum</p>
-              </div>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
       <!-- <span>
       <input type="button" value="Prev" id="prev">
